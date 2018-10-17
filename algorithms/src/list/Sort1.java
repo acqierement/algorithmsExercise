@@ -47,17 +47,20 @@ public class Sort1 {
 	}
 	
 	//时间复杂度O(n^2),空间复杂度O(1),稳定排序
-	public void insertionSort(int[] nums) {
-		int len = nums.length;
-		if(len <= 1) return;
-		for(int i = 1; i < len; i++) {
-			int value = nums[i];
-			int prev = i-1;
-			while(prev >=0 && nums[prev] > value) {
-				nums[prev + 1] = nums[prev];
-				prev--;
-			}
-			nums[prev + 1] = value;
+	public void insertionSort(int[] a) {
+		int n = a.length;
+		  if (n <= 1) return;
+		  for (int i = 1; i < n; ++i) {
+		    int value = a[i];
+		    for (int j = i -1; j >= 0; --j) {
+		      if (a[j] > value) {
+		        a[j+1] = a[j];  // 数据移动
+		      } else {
+		        a[j+1] = value; // 插入数据
+		        break;
+		      }
+		    }
+		    
+		  }
 		}
-	}
 }

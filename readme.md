@@ -31,6 +31,8 @@
 
 <h3 id ="单链表反转">单链表反转</h3>
 
+可以参考LeetCode [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+
 反转比较简单，就是要有一个先前节点prev和当前节点head，要有一个临时节点保存head的下一个节点（head.next），否则反转之后你就找不到下一个节点了。然后让head指向前一个节点prev，prev和head各自指向下一个节点，当然，prev的下一个节点就是head了，而head的下一个节点就是head.next，我们已经放在临时变量里了。
 
 <h3 id ="链表中环的检测">链表中环的检测</h3>

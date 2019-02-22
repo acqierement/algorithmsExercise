@@ -4,11 +4,12 @@ public class ListExcisse {
 	//单链表反转 
 	public ListNode reverse(ListNode head) {
 		ListNode prev = null;
-		while(head != null) {
-			ListNode temp = head.next;
-			head.next = prev;
-			prev = head;
-			head = temp;
+		ListNode cur = head;
+		while(cur != null) {
+			ListNode temp = cur.next;
+			cur.next = prev;
+			prev = cur;
+			cur = temp;
 		}
 		return prev;
 	}

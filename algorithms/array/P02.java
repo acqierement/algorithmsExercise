@@ -2,9 +2,10 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public class leetCode15_3Sum {
+public class P02 {
     public static void main(String[] args) {
         int[] nums = {-1, 0, 1, 2, -1, -4};
+
         threeSum(nums);
     }
 

@@ -30,8 +30,6 @@ public class P02 {
      * 所以要先判断答案再去重，如果是正确答案，就移动左右指针并去重，
      * 如果不是正确答案，由于我们排过序了，所以只需移动单边指针，并可以进行去重，但是我发现这时去重在LeetCode速度反而变慢
      *
-     * @param nums
-     * @return
      */
     public static List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);

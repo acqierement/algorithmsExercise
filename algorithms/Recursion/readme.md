@@ -2,4 +2,6 @@
 
 2. 实现阶乘
 
-3. 返回一组数据的全排列 LeetCode[46. Permutations](https://leetcode.com/problems/permutations/)
+3. 返回一组数据的全排列 LeetCode [46. Permutations](https://leetcode.com/problems/permutations/)
+
+4. 爬楼梯 LeetCode [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)

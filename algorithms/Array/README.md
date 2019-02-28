@@ -4,3 +4,5 @@
 
 2. Sum（求三数之和）[LeetCode15--3sum](https://leetcode.com/problems/3sum/)
 
+3. Majority Element（求众数）LeetCode [169. Majority Element](https://leetcode.com/problems/majority-element/)
+

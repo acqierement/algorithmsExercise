@@ -91,5 +91,40 @@ public class ListExercise {
         return slow;
     }
 
+    // 反转其中一段链表
+    public ListNode reverseBetween(ListNode head, int m, int n) {
+        ListNode fakeHead = new ListNode(0);
+        fakeHead.next = head;
+        ListNode prev = fakeHead;
+        ListNode cur = head;
+
+        ListNode mNode;
+        ListNode nNode;
+        ListNode beforeM;
+        ListNode afterN ;
+
+        // 找到m和m前一个节点
+        for(int i = 0; i < m - 1; i++) {
+            cur = cur.next;
+            prev = prev.next;
+        }
+        beforeM = prev;
+        mNode = cur;
+
+        // 从m开始反转链表，直到n
+        for(int i = 0; i <= n - m; i++) {
+            ListNode nextTemp = cur.next;
+            cur.next = prev;
+            prev = cur;
+            cur = nextTemp;
+        }
+        // 记录n和n的下一个节点
+        nNode = prev;
+        afterN = cur;
+
+        beforeM.next = nNode;
+        mNode.next = afterN;
+        return fakeHead.next;
+    }
 
 }

@@ -1,3 +1,5 @@
+// 牛客网可以用来测试自己的代码
+//牛客网：最小的k个数 https://www.nowcoder.com/practice/6a296eb82cf844ca8539b57c23e6e9bf
 public class Sort06 {
     public int findTopK(int nums[], int k){
         return findTopK(nums, 0, nums.length - 1, k);

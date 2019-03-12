@@ -1,5 +1,5 @@
 /**
- * 0-1背包问题
+ * 0-1背包问题：每个物品有对应的价值和重量，在限定重量下选出最有价值的物品。
  */
 public class DynamicProgramming01 {
     public static int knapsack(int[] value, int[] weight, int capacity) {

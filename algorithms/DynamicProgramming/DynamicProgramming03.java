@@ -1,6 +1,3 @@
-/**
- * 0-1背包问题
- */
 public class DynamicProgramming03 {
     public int minDistance(String word1, String word2) {
         int[][] cost = new int[word1.length() + 1][word2.length() + 1];

@@ -3,7 +3,7 @@
  2. 打家劫舍 LeetCode[198. House Robber](https://leetcode.com/problems/house-robber/)
     这题在LeetCode上标记为简单的题目，结果一开始我却无从下手，其实这是一道最简单的动态规划的题目
  3. 计算两个单词编辑距离（比较两个单词的“差异度”）LeetCode[72. Edit Distance](https://leetcode.com/problems/edit-distance/)
-
+ 4. 硬币找零 LeetCode[322. Coin Change](https://leetcode.com/problems/coin-change/) 
  
 
 ### 计算两个单词编辑距离

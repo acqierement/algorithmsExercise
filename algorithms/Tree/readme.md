@@ -17,4 +17,4 @@
 
 7. 二叉树的z型遍历 (和层级遍历类似) LeetCode[103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
 
-3. 实现二叉查找树中某个节点的后继、前驱节点。其实就是中序遍历的前后节点，因为二叉查找树中序遍历是有顺序的。
+8. 实现二叉查找树中某个节点的后继、前驱节点。其实就是中序遍历的前后节点，因为二叉查找树中序遍历是有顺序的。

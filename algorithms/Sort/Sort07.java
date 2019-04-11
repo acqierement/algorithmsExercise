@@ -8,7 +8,7 @@ public class Sort07 {
         int n = array.length;
         buildHeap(array, n);
         int k = n;
-        while(k > 0) {
+        while(k > 1) {
             swap(array, 0, k - 1);
             k--;
             heapify(array, k, 1);

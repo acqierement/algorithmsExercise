@@ -58,7 +58,7 @@ public class BinarySearchTree {
         if (p == null) return; // 没有找到要删除的节点
 
         if (p.right != null && p.left != null) {
-            // 找右子树中最小的节点(就是最左边的节点）
+            // 找右子树中最小的节点(就是右子树中最左边的节点）
             Node minP = p.right;
             Node minPP = p; // minP的父节点
             while (minP.left != null) {

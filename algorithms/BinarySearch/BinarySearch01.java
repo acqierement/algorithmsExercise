@@ -15,4 +15,5 @@ public class BinarySearch01 {
         }
         return ans;
     }
+
 }

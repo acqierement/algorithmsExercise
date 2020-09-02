@@ -1,3 +1,5 @@
+package exercise.Sort;
+
 /**
  * 快排
  */
